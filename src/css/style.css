@@ -1,0 +1,60 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+h1, h2 {
+	text-align: center;
+	padding: 40px 0;
+	margin: 0;
+}
+p, h3, a, ul {
+	padding: 0 100px;
+}
+ul li {
+	font-size: 20px;
+	margin-left: 18px;
+}
+a {
+	text-decoration: none;
+}
+.bottom, ul {
+	margin: 0;
+}
+#start {
+	padding-top: 30px;
+	margin: 0;
+}
+.book-1 {
+	background-color: #C4E6DF;
+}
+.chapter-1 {
+	background-color: #D6E0C9;
+}
+.chapter-2 {
+	background-color: #DFCECA;
+}
+.chapter-3 {
+	background-color: #CACADF;
+}
+.chapter-4 {
+	background-color: #C8E1CC;
+}
+.chapter-5 {
+	background-color: #E7E8BF;
+}
+.bold {
+	font-weight: 900;
+	font-size: 20px;
+}
+.bold-a {
+	font-weight: 900;
+}
+.italic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+.line-through {
+	text-decoration: line-through;
+}
