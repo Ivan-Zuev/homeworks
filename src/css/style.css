@@ -1,60 +1,81 @@
 * {
 	box-sizing: border-box;
 }
+a {
+	text-decoration: none;
+	color: #000000;
+}
 body {
 	padding: 0;
 	margin: 0;
-	background: #f9f9f9;
+	background: #5F6B81 url(../img/bg-3.jpg) no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.fotorama {
+	text-align: center;
+	padding: 4px 0 0 253px;
 }
 h1 {
 	text-align: center;
-	color: #000000;
-	font-family: sans-serif;
-	font-size: 36px;
-	font-weight: 400;
-}
-img {
-	width: 218px;
-	height: 210px;
-	background-color: #ffffff;
-}
-.container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-.card {
-	margin-top: 125px;
-	text-align: center;
-}	
-span {
-	display: flex;
-	justify-content: center;
-	padding-top: 25px;
-	color: #000000;
-	font-family: sans-serif;
-	font-size: 16px;
-	font-weight: 300;
+	padding-top: 70px;
 }
 h2 {
 	text-align: center;
-	padding-top: 25px;
-	color: #000000;
-	font-family: sans-serif;
-	font-size: 18px;
-	font-weight: 700;
+	padding-top: 10px;
 }
-.btn {
-	margin-top: 25px;
-	width: 200px;
-	height: 55px;
-	border: 1px solid #23bac1;
-	background: #ffffff;
+.lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7 {
+	display: inline-block;
+	color: #fff;
+	margin-top: 200px;
+	padding: 20px;
+	font-size: 22px;
+	border: 3px solid #fff;
+	border-radius: 50px;
 }
-.text-btn {
-	color: #23bac1;
-	font-family: sans-serif;
-	font-size: 13px;
-	font-weight: 700;
-	text-transform: uppercase;
+.lesson1:hover {
+	color: #23EB2D;
+	border: 3px solid #23EB2D;
+	box-shadow: 0px 0px 40px #23EB2D;
 }
+.lesson2:hover {
+	color: #2B59E3;
+	border: 3px solid #2B59E3;
+	box-shadow: 0px 0px 40px #2B59E3;
+}
+.lesson3:hover {
+	color: #EB2823;
+	border: 3px solid #EB2823;
+	box-shadow: 0px 0px 40px #EB2823;
+}
+.lesson4:hover {
+	color: #D7EB23;
+	border: 3px solid #D7EB23;
+	box-shadow: 0px 0px 40px #D7EB23;
+}
+.lesson5:hover {
+	color: #23DCEB;
+	border: 3px solid #23DCEB;
+	box-shadow: 0px 0px 40px #23DCEB;
+}
+.lesson6:hover {
+	color: #D23CA9;
+	border: 3px solid #D23CA9;
+	box-shadow: 0px 0px 40px #D23CA9;
+}
+.lesson7:hover {
+	color: #EE8C20;
+	border: 3px solid #EE8C20;
+	box-shadow: 0px 0px 40px #EE8C20;
+}
+
+
+
+
+
+
+
+
+
+
+
