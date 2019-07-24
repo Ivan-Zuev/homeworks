@@ -1,19 +1,54 @@
 * {
 	box-sizing: border-box;
 }
-.row {
-	height: 100px;
-	background-color: red;
-	color: #fff;
-	text-align: center;
-	font-weight: 900;
+body {
+	color: #32325f;
 }
-
-
-
-
-
-
-
-
-
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.title{
+	font-size: 48px;
+	font-weight: 700;
+}
+.price{
+	font-size: 48px;
+	font-weight: 400;
+}
+.main {
+	margin-top: 100px;
+}
+.hero {
+	background-color: #f4f5f7;
+	padding-top: 70px;
+	padding-bottom: 190px;
+}
+.section {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.about-block {
+	margin-top: 100px;
+}
+.navbar-brand {
+	font-size: 20px;
+	font-weight: 700;
+}
+.btn-primary {
+	background-color: #5e72e4;
+}
+.people {
+	background-color: #f4f5f7;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.block-img {
+	margin-top: 64px;
+}
+.footer {
+	padding-bottom: 100px;
+	padding-top: 78px;
+	background-color: #32325f;
+	color: #ffffff;
+}
